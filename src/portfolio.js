@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Neelesh Shekhar",
   subTitle: "An Individual with a Computer Science background with an excellent analytical perspective towards solving problems. I have experience in the Digital transformation of organizations by analyzing real data sets.",
   resumeLink:
-    "https://drive.google.com/file/d/18N2zaieTTYJzf4apiYKGcuNU2Q_ipJh/view?usp=sharing",
+    "https://drive.google.com/file/d/18N2zaieTTYJzf4ap=siYKGcuNU2Q_ipJh/view?usp=sharing",
   mail: "mailto:neeleshshekhar.2000@gmail.com",
 };
 
