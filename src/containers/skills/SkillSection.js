@@ -6,12 +6,16 @@ import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 // import DesignImg from "./DesignImg";
+import entren from "../../assests/images/Entrepren.png";
+import consulting from "../../assests/images/consulting.png";
 
 function GetSkillSvg(props) {
   if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+  //  return <FullStackImg theme={props.theme} />;
+  return <img src={entren} alt="Logo" />;
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+    // return <CloudInfraImg theme={props.theme} />;
+    return <img src={consulting} alt="Logo" />;
   // return <DesignImg theme={props.theme} />;
 }
 
@@ -36,7 +40,7 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                  {/* <SoftwareSkill logos={skill.softwareSkills} /> */}
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
@@ -65,7 +69,7 @@ function SkillSection(props) {
                   </h1>
                 </Fade>
                 <Fade left duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
+                  {/* <SoftwareSkill logos={skill.softwareSkills} /> */}
                 </Fade>
                 <Fade left duration={2000}>
                   <div>

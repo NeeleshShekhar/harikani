@@ -7,6 +7,7 @@ import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
 
+
 function Experience(props) {
   const theme = props.theme;
   console.log(props.setTheme);
@@ -43,6 +44,7 @@ function Experience(props) {
         </Fade>
       </div>
       <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+      
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

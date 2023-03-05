@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import neelesh from "../../assests/images/neelesh.png"
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -50,7 +51,8 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            {/* <FeelingProud theme={theme} /> */}
+            <img src={neelesh} alt="Logo" />;
           </div>
         </div>
       </div>

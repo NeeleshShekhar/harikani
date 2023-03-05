@@ -61,6 +61,7 @@ function DegreeCard(props) {
     fontSize: "17px",
     transition: "all 0.2s ease-in-out",
     cursor: "pointer",
+    
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
       boxShadow: `0 5px 10px ${theme.accentColor}`,
@@ -75,7 +76,7 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
+              //transform: "scale(-50%, -50%)",
             }}
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}

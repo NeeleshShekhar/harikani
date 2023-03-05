@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch, HashRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
+
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
@@ -66,6 +67,7 @@ export default function Main(propss) {
                 />
               )}
             />
+             
             <Route
               path="/splash"
               render={(props) => (
@@ -127,6 +129,7 @@ export default function Main(propss) {
                 />
               )}
             />
+            
             <Route
               path="/education"
               render={(props) => (
